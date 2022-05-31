@@ -1,0 +1,46 @@
+div {
+  border: 1px solid gray;
+  padding: 5px;
+  margin: 5px;
+  background: white;
+}
+.relative {
+  position: relative; /*Permite posicionarlo en relacion a la posicion que tendria si fuera estático */
+  left: 80px;
+  margin-left: 10px;
+}
+
+/*Posicionamiento fijo - se posiciona en relación a la pantalla*/
+.fixed{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    background:greenyellow;
+    z-index: 2;
+}
+
+.relative.contenedor{
+    width: 400px;
+    height: 800px;
+    background: blue;
+}
+/*igual que el fixed pero en relación al padre relativo*/
+/*se especifica con el 
+top
+right
+bottom 
+left*/
+.absolute{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+/*Mezcla entre relative-fifed*/
+.sticky{
+    position: sticky;
+    color: white;
+    top: 0px;
+    background-color: aqua;
+    z-index: 2;
+}
