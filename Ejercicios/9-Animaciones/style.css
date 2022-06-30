@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.btn-modern{
+    background-color: aquamarine;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: gray;
+    font-size: 14pt;
+    border-bottom: 2px solid rgb(82, 253, 196);
+    transition: all 0.4s;
+}
+
+.btn-modern:hover{
+    transform: translateY(-5px);
+    border: 1px solid #d2d2d4;;
+    box-shadow: 0 0 4px #c214da4f;
+    background-color: aqua;
+    color: rgb(104, 103, 103);
+    border-bottom: 2px solid rgb(3, 252, 169);
+}
