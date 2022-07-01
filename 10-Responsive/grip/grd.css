@@ -1,0 +1,46 @@
+.contenedor{
+    display: grid;
+    gap: 0.5rem;
+    /* column-gap: 0.1rem;
+    row-gap: 1rem;
+    grid-template-columns: auto auto auto;/*crea 3 columnas */
+    
+    /*hace lo mismo que el auto auto auto*/
+    grid-template-columns: repeat(3, auto);
+    
+    /*Otra forma de hacerlo es la siguiente*/
+    grid-template-columns: 28px 5rem 25vw;
+
+    /*Dando estilo con graciones*/
+    grid-template-columns: 1fr 1fr 1fr;
+
+    /*dandole altura a las filas*/
+    grid-template-rows: 50px 12rem 1fr;
+
+
+    /*trabajando con las areas (definiendo las areas)*/ 
+    /* grid-template-areas: 'head head head' 'main main main' 'footer footer footer'; */
+
+
+}
+
+.item{
+    background-color: aqua;
+    padding: 0.25rem;
+    color: purple;
+    font-size: 2rem;
+    border: 1px solid blue;
+}
+
+/* .item1{
+    grid-area: head; /*como se definio mas arriba en el template el item1 se poseciono en el head
+} */
+
+.item1{
+    grid-column: 2 / 4;
+    grid-column: 2 / span 2;
+}
+
+.item8{
+    grid-area:  2 / 3 / 9 / 3; /* fila - columna -fila columna*/
+}
