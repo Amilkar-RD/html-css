@@ -1,0 +1,59 @@
+.input{
+    width: 100%;
+    padding: 5px 10px;
+    border: 2px solid green;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.input[type="password"]{
+    color: red
+}
+
+.input-moderno{
+    border: none;
+    border-bottom: 2px solid #d8d5d5;
+    outline: none;
+    padding: 5px;
+    color: #5e5e5e;;
+}
+
+.input-moderno::placeholder{
+    color: #5e5e5e;
+}
+
+.input-moderno:focus{
+    border-bottom: 2px solid #292727;
+}
+
+.input-background{
+    background-color: aquamarine;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    outline: none;
+    color: white;
+    box-shadow: 0 0 10px #ccc;
+}
+
+
+.input-search{
+    padding: 10px;
+    border: none;
+    padding-left: 38px;
+    background-color: #fff;
+    border-radius: 8px;
+    background-image: url('../img/magnifying-glass-solid.svg');
+    background-repeat: no-repeat;
+    background-position: 5px;
+}
+
+textarea{
+    resize: both;
+}
+
+select{
+    width: 100%;
+    padding: 20px;
+    background-color: #ccc;
+}
