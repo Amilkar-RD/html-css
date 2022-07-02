@@ -1,0 +1,18 @@
+.row div{
+    margin: 0.25rem;
+    color: white;
+    text-align: center;
+}
+.col-sm{
+    background-color: aqua;
+}
+.col-md{
+    background-color: blue;
+}
+.col-lg{
+    background-color: red;
+}
+div.col-xl{
+    background-color: yellow;
+    color: aqua;
+}
